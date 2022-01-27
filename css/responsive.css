@@ -1,0 +1,327 @@
+@media only screen and (max-width: 500px){
+
+
+
+.container{
+	width: 100%;
+}
+.logo_nav {
+padding:15px 0px;
+padding-bottom:0;
+}
+
+#arrowKey {
+width:40px;
+padding:7px 2px;
+font-size:16px;
+bottom:10px;
+right:5px;
+border-radius:4px;
+}
+
+.logo{
+width:100%;
+position:static;
+float:none;
+padding-bottom:20px;
+}
+.logo h1{
+top:-6px;
+left:5px;
+font-size:40px;
+position:static;
+text-align:center;
+}
+.navBar {
+width:100%;
+float:right;
+display:none;
+background:#990099;
+}
+.navBar nav{
+width:100%;
+display:block;
+}
+
+.navBar nav a{
+display:block;
+width:100%;
+background:transparent;
+padding:5px 0px;
+margin-left:0px !important ;
+margin-right:0px !important ;
+font-size:15px;
+border-radius:1px;
+border-bottom:1px solid #5c0099;
+}
+.title {
+width:100%;
+float:none;
+padding:0px 0px;
+text-align:center;
+}
+.title h1{
+font-size:35px;
+padding:20px 0;
+}
+.title p{
+font-size:15px;
+line-height:25px;
+}
+
+.title button {
+width:120px;
+padding:4px 0px;
+border-radius:4px;
+margin:15px 0;
+font-size:15px;
+font-weight:normal;
+margin-left:auto;
+margin-bottom:20px;
+}
+
+.profile_pic {
+width:250px;
+float:none;
+height:250px;
+border-radius:50%;
+border:4px solid #8a00e6;
+box-shadow:0px 0px 20px 0px #fafafa;
+margin:20px auto;
+margin-top:80px;
+}
+.info {
+background-image:linear-gradient(#8080ff20,#8080ff20),url(../image/bg2.jpg);
+}
+.plans {
+width:100%;
+overflow:hidden;
+}
+.planTitle {
+width:100%;
+text-align:center;
+margin:auto;
+padding:10px 0;
+}
+
+.planTitle h2{
+font-size:20px;
+padding:8px 0px;
+}
+.planTitle p{
+font-size:14px;
+line-height:22px;
+word-spacing:7px;
+width:90%;
+margin:auto;
+}
+
+
+
+.planWrap{
+padding:10px 0px;
+}
+
+
+.planSingle{
+width:85%;
+background:;
+padding:20px 0px;
+padding-bottom:7px;
+float:none;
+border-radius:8px;
+margin:10px auto !important ;
+margin-bottom:30px !important ;
+box-shadow:0px 0px 5px -1px black;
+}
+.planSingle h3{
+font-size:18px;
+}
+
+.planDetails {
+width:100%;
+padding:10px 5px;
+padding-bottom:10px;
+}
+.planDetails h3{
+font-size:14px;
+padding-top:7px;
+padding-bottom:8px;
+}
+.planDetails ul li{
+display:block;
+padding:10px 5px;
+font-size:12px;
+margin-left:90px;
+}
+
+.planDetails ul li span {
+font-size:15px;
+padding-right:4px;
+margin-left:-10px;
+}
+.tutorial {
+padding:10px 0px;
+}
+
+.tutorial_item {
+width:100%;
+padding:10px 5px;
+}
+
+.tutorial_single {
+width:85%;
+background:#fff;
+padding:15px 8px;
+float:none;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.02), 0 6px 6px 0 rgba(0, 0, 0, 0.19);
+ margin:15px auto !important;
+ border-radius:2px;
+}
+
+.tutorialImg {
+margin:auto;
+width:90%;
+height:auto;
+overflow:hidden;
+}
+
+.tutorial_single h3{
+padding:10px 0;
+font-size:16px;
+}
+.tutorial_single p{
+line-height:20px;
+font-size:12px;
+}
+.tutorial_single a{
+font-size:13px;
+padding:5px 0;
+margin:auto;
+}
+
+.socialWrap {
+width:100%;
+overflow:hidden;
+padding:15px 0px;
+}
+
+.socialSingle {
+width:80%;
+padding:7px 3px;
+float:none;
+padding-top:14px;
+box-shadow:1px 1px 10px -3px #333;
+margin:25px auto !important ;
+}
+.socialLogo {
+width:25%;
+height:auto;
+}
+.socialSingle h2{
+padding:5px;
+font-size:17px;
+}
+.socialSingle p{
+font-size:13px;
+}
+.joinBtn{
+display:flex;
+}
+.joinBtn a{
+width:80%;
+color:#ffffb3;
+font-size:12px;
+padding:5px;
+border-radius:4px;
+font-weight:bold;
+}
+
+.tweetsWrap {
+width:100%;
+padding:20px 0px;
+}
+.tweetsWrap h2{
+padding-bottom:15px;
+font-size:20px;
+}
+
+.tweestArea {
+padding:10px 5px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.singleTweet{
+width:85%;
+padding:10px;
+border-radius:2px;
+margin:25px 0 !important;
+}
+
+.singleTweet h3{
+font-size:17px;
+padding:5px 0;
+}
+
+.singleTweet p {
+font-size:12px;
+padding:5px 0;
+display:flex;
+}
+
+.singleTweet article {
+text-align:justify;
+padding:10px 0;
+font-size:13px;
+line-height:20px;
+word-spacing:5px;
+}
+
+.tweetsSee{
+width:9ch;
+font-size:12px;
+}
+
+
+.footWrap {
+padding:14px 0;
+margin:5px 0;
+}
+.footWrap p{
+font-size:12px;
+margin:0 4px;
+}
+.footWrap p a{
+color:#444;
+}
+
+
+.mMenuBtn {
+display:block;
+padding-top:10px ;
+padding:0px;
+background:#990099;
+border-bottom:1px solid #5c0099;
+}
+.mMenuBtn button {
+outline:none;
+border:none;
+font-size:28px;
+color:#fff;
+margin:auto ;
+width:30px;
+background:transparent;
+transition:.3s;
+}
+
+.mMenuBtn button:active {
+color:#333;
+}
+
+
+
+
+}
